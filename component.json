@@ -1,6 +1,6 @@
 {
   "name": "deku-grid",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "dekujs/magic-virtual-element": "^1.0.5",
     "suitcss/components-grid": "^2.0.2",
