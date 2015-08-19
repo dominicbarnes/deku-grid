@@ -1,5 +1,5 @@
 
-import assert from 'virtual-element-assertions';
+import assert from 'assert-element';
 import { Grid } from '..';
 
 describe('Grid', function () {

@@ -8,6 +8,6 @@
   },
   "development": {
     "component/assert": "^0.5.0",
-    "dominicbarnes/virtual-element-assertions": "^0.0.1"
+    "dekujs/assert-element": "0.0.1"
   }
 }

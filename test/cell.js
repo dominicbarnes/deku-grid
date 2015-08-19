@@ -1,5 +1,5 @@
 
-import assert from 'virtual-element-assertions';
+import assert from 'assert-element';
 import { Cell } from '..';
 
 describe('Cell', function () {
