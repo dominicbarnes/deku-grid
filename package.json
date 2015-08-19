@@ -1,0 +1,26 @@
+{
+  "name": "deku-grid",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A grid/cell component using suitcss/components-grid",
+  "repository": "dominicbarnes/deku-grid",
+  "dependencies": {
+    "magic-virtual-element": "^1.0.4"
+  },
+  "devDependencies": {
+    "@dominicbarnes/eslint-config": "0.0.3",
+    "@dominicbarnes/eslint-config-browser": "0.0.3",
+    "@dominicbarnes/eslint-config-deku": "0.0.4",
+    "@dominicbarnes/eslint-config-test": "0.0.2",
+    "duo-babel": "^6.0.0",
+    "duo-tester": "^0.1.1",
+    "eslint": "^1.2.0",
+    "eslint-plugin-react": "^3.2.3",
+    "virtual-element-assertions": "0.0.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "duo-tester browser -u duo-babel",
+    "test": "duo-tester phantomjs -u duo-babel"
+  }
+}
