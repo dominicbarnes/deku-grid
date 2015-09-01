@@ -1,6 +1,6 @@
 {
   "name": "deku-grid",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "A grid/cell component using suitcss/components-grid",
   "repository": "dominicbarnes/deku-grid",
