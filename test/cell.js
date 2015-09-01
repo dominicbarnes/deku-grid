@@ -58,4 +58,17 @@ describe('Cell', function () {
     let node = Cell.render({ props });
     assert.hasChildren(node, children);
   });
+
+  it('should add custom classes', function () {
+    let props = { class: 'a' };
+    let node = Cell.render({ props });
+    assert.hasClass(node, 'a');
+  });
+
+  it('should add advanced custom classes', function () {
+    let props = { class: { a: false, b: true } };
+    let node = Cell.render({ props });
+    assert.notHasClass(node, 'a');
+    assert.hasClass(node, 'b');
+  });
 });

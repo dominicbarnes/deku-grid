@@ -46,4 +46,17 @@ describe('Grid', function () {
     let node = Grid.render({ props });
     assert.hasChildren(node, children);
   });
+
+  it('should add custom classes', function () {
+    let props = { class: 'a' };
+    let node = Grid.render({ props });
+    assert.hasClass(node, 'a');
+  });
+
+  it('should add advanced custom classes', function () {
+    let props = { class: { a: false, b: true } };
+    let node = Grid.render({ props });
+    assert.notHasClass(node, 'a');
+    assert.hasClass(node, 'b');
+  });
 });
